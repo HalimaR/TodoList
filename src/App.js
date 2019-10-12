@@ -4,7 +4,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import MainContent from "./components/MainContent";
-
+//41
 class App extends React.Component {
   constructor() {
     super();
@@ -32,8 +32,8 @@ class App extends React.Component {
     }
   }
 */
-  render() {
-    let buttonText = this.state.isLogged ? "you klik" : "don't klik"; 
+  render() { //condition ? statement if true : statement if false
+    //let buttonText = this.state.isLogged ? "you klik" : "don't klik"; 
     return (
       <div className="App">
         <Header />
